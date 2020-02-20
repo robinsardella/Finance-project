@@ -11,12 +11,12 @@
 <form th:object="${UserFinancials}" th:action="@{/calculate}" METHOD="post">
     <label>Ingående värde</label><br>
     <input type="number" th:field="*{currentSavingsValue}"><br>
-    <label>Månadsutgifter</label>
-    <input type="number" th:field="*{monthlyExpense}">
+    <label>Månadsutgifter</label><br>
+    <input type="number" th:field="*{monthlyExpense}"><br>
     <label>Månadssparande</label><br>
     <input type="number" th:field="*{monthlySavings}"><br>
     <label>Antal år för sparande</label><br>
-    <input type="number" th:field="*{yearsToSave}">
+    <input type="number" th:field="*{yearsToSave}"><br>
     <input type="submit" value="submit">
 </form>
 </body>

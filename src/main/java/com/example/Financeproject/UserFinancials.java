@@ -1,5 +1,8 @@
 package com.example.Financeproject;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UserFinancials {
 
     int currentSavingsValue;
